@@ -20,9 +20,6 @@ $(call inherit-product, device/lge/z-common/zee.mk)
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# NFC
-$(call inherit-product, device/lge/z-common/nfc.mk)
-
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensor_def_f340l.conf:system/etc/sensor_def_variable.conf
