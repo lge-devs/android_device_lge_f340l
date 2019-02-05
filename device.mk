@@ -14,15 +14,15 @@
 # limitations under the License.
 #
 
-$(call inherit-product-if-exists, vendor/lge/d802/d802-vendor.mk)
-$(call inherit-product, device/lge/g2-common/g2.mk)
+$(call inherit-product-if-exists, vendor/lge/f340l/f340l-vendor.mk)
+$(call inherit-product, device/lge/z-common/zee.mk)
 
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # NFC
-$(call inherit-product, device/lge/g2-common/nfc.mk)
+$(call inherit-product, device/lge/z-common/nfc.mk)
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sensor_def_d802.conf:system/etc/sensor_def_variable.conf
+    $(LOCAL_PATH)/configs/sensor_def_f340l.conf:system/etc/sensor_def_variable.conf

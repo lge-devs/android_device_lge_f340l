@@ -2,15 +2,16 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/d802/d802.mk)
+$(call inherit-product, device/lge/f340l/f340l.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := d802
-PRODUCT_NAME := lineage_d802
+PRODUCT_DEVICE := zee
+PRODUCT_NAME := lineage_f340l
 PRODUCT_BRAND := LGE
-PRODUCT_MODEL := LG-D802
+PRODUCT_MODEL := LG-F340L
 PRODUCT_MANUFACTURER := lge
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=lge/g2_open_com/g2:5.0.2/LRX22G/151061918340a:user/release-keys \
-    PRIVATE_BUILD_DESC="g2_open_com-user 5.0.2 LRX22G 151061918340a release-keys"
+    PRIVATE_BUILD_DESC="z_lgu_kr-user 4.4.2 KOT49I.F340L20a F340L20a.1394864916 test-keys"
+
+BUILD_FINGERPRINT := lge/z_lgu_kr/zee:4.4.2/KOT49I.F340L20a/F340L20a.1394864916:user/test-keys
