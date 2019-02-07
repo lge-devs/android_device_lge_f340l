@@ -5,7 +5,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/lge/f340l/f340l.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := zee
+PRODUCT_DEVICE := f340l
 PRODUCT_NAME := lineage_f340l
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-F340L
