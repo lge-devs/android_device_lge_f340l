@@ -4,3 +4,6 @@
 
 # RIL
 telephony.lteOnGsmDevice=1
+
+# Dispaly
+ro.sf.lcd_density=320
